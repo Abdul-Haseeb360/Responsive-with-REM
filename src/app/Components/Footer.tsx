@@ -4,7 +4,7 @@ import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react"
 export default function Footer() {
   return (
     <footer>
-      <div className="mx-auto max-w-7xl ml-20 py-12">
+      <div className="mx-auto max-w-7xl lg:ml-20 py-12">
         <div className="grid gap-8 lg:grid-cols-2">
           {/* Logo and Social Links */}
           <div className="flex flex-col gap-6">

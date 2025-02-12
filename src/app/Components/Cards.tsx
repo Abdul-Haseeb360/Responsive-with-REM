@@ -5,7 +5,7 @@ import Image from "next/image";
 function Cards() {
   return (
 
-    <div className="mx-auto max-w-7xl ml-20 py-16 ">
+    <div className="mx-auto max-w-7xl lg:ml-20 py-16 ">
       <div className="grid gap-8 md:grid-cols-2 ">
         {/* First Column */}
         <div className="flex flex-col gap-4">

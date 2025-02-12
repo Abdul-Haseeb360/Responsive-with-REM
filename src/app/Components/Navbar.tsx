@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <nav className="container ">
-      <div className="mx-auto flex ml-20 pt-16 max-w-7xl items-center justify-between">
+      <div className="mx-auto flex lg:ml-20 pt-16 max-w-7xl items-center justify-between">
         <div className="flex-shrink-0">
           <Link href="/" className="text-xl font-medium ">
             My Website

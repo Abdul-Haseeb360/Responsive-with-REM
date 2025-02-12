@@ -4,7 +4,7 @@ import Artical2 from "../../../Public/Images/Image(3).png"
 import Artical3 from "../../../Public/Images/Image(4).png"
 export default function ImageCards() {
     return (
-      <div className=" ml-20 lg:py-16 ">
+      <div className=" lg:ml-20 lg:py-16 ">
         <div className="mx-auto ">
           <div className="lg:flex sm:block  lg:gap-8">
             {/* First Card */}

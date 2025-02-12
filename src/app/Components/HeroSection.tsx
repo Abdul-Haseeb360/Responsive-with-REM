@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 function Herosection() {
   return (
     <div >
-    <div className="ml-20 my-20 ">
+    <div className="lg:ml-20 my-20 ">
       <h1 className="text-[64px] leading-[77px] font-bold ~md/lg:~text-2xl/6xl ">
         Article or post title
       </h1>
