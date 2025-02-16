@@ -4,8 +4,7 @@ import Goat from "../../../Public/Images/goat.png";
 import Image from "next/image";
 function Cards() {
   return (
-
-    <div className="mx-auto max-w-7xl lg:ml-20 py-16 ">
+    <div className="mx-auto max-w-7xl lg:ml-20 ~py-1/16 ">
       <div className="grid gap-8 md:grid-cols-2 ">
         {/* First Column */}
         <div className="flex flex-col gap-4">
@@ -16,7 +15,7 @@ function Cards() {
               className="h-[436px] w-full object-cover"
             />
           </div>
-          <p className="~text-xl/lg font-medium text-gray-800 pt-16">
+          <p className="~/md:~text-base/xl lg:~lg:~text-xl/2xl font-medium text-justify text-gray-800 ~pt-2/16">
             Excepteur efficient emerging, minim veniam anim cloying aute
             carefully curated gauche. Espresso exquisite perfect nostrud nisi
             intricate. Punctual adipisicing Borzoi, essential lovely tempor
@@ -35,7 +34,7 @@ function Cards() {
               className="h-[436px] w-full object-cover"
             />
           </div>
-          <p className="~text-xl/lg leading-relaxed text-gray-800 pt-16">
+          <p className="~/md:~text-base/xl lg:~lg:~text-xl/2xl leading-relaxed text-justify text-gray-800 ~pt-2/16">
             Exquisite sophisticated iconic cutting-edge laborum deserunt esse
             bureaux cupidatat id minim. Sharp classic the best commodo nostrud
             delightful. Conversation aute wifey id. Qui sunt impeccable deserunt
