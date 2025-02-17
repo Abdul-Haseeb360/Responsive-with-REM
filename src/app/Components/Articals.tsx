@@ -4,13 +4,13 @@ import Artical2 from "../../../Public/Images/Image(3).png";
 import Artical3 from "../../../Public/Images/Image(4).png";
 export default function ImageCards() {
   return (
-    <div className=" lg:ml-20  ~py-2/14 ">
+    <div className=" lg:ml-20  ~py-2/14    ">
       <div className="mx-auto font-semibold text-2xl">
         <p className="~/md:~text-base/4xl lg:~lg:~text-4xl/6xl pb-8">
           Related articles or posts
         </p>
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-8">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 md:gap-4">
           {/* First Card */}
           <div className="flex flex-col">
             <div className="aspect-square overflow-hidden  bg-white">
